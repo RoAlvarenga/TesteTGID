@@ -8,6 +8,6 @@ public class ItemVenda {
 
     }
     public String toString(){
-        return "ID Venda: "+venda.id +" "+produto.nome +" Preço: "+produto.preco;
+        return "ID Venda: "+venda.id +" "+produto.nome +" Preco: "+produto.preco;
     }
 }

@@ -11,10 +11,10 @@ public class Main {
         List<Produto> listaProduto = new ArrayList<>();
        
         //Criando alguns usuarios
-        Usuario usuario1 = new Usuario("Rodrigo","11111111111","rodrigo@email.com","senha123");
-        Usuario usuario2 = new Usuario("Joao","11111111112","joao@email.com","senha123");
-        Usuario usuario3 = new Usuario("Pedro","11111111113","pedro@email.com","senha123");
-        Usuario usuario4 = new Usuario("Maria","11111111123","maria@email.com","senha123");
+        Usuario usuario1 = new Usuario("Rodrigo","11111111111","rodrigo@email.com","senha123","Avenida Paulista");
+        Usuario usuario2 = new Usuario("Joao","11111111112","joao@email.com","senha123","Avenida Santo Amaro");
+        Usuario usuario3 = new Usuario("Pedro","11111111113","pedro@email.com","senha123","Avenida Adolfo Pinheiro");
+        Usuario usuario4 = new Usuario("Maria","11111111123","maria@email.com","senha123","Avenida Ibirapuera");
         listaUsuario.add(usuario1);
         listaUsuario.add(usuario2);
         listaUsuario.add(usuario3);
