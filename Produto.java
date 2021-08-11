@@ -1,9 +1,8 @@
-
 public class Produto {
-    private String nome;
-    private int quantidade;
-    private double preco;
-
+    public String nome;
+    public int quantidade;
+    public double preco;
+    //Construtor do objeto Produto
     public Produto(String nome,int quantidade,double preco){
         this.nome=nome;
         this.quantidade = quantidade;
