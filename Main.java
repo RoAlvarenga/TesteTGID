@@ -15,6 +15,7 @@ public class Main {
         Usuario usuario2 = new Usuario("Joao","11111111112","joao@email.com","senha123","Avenida Santo Amaro");
         Usuario usuario3 = new Usuario("Pedro","11111111113","pedro@email.com","senha123","Avenida Adolfo Pinheiro");
         Usuario usuario4 = new Usuario("Maria","11111111123","maria@email.com","senha123","Avenida Ibirapuera");
+        //adiciona os usuarios na lista
         listaUsuario.add(usuario1);
         listaUsuario.add(usuario2);
         listaUsuario.add(usuario3);
@@ -24,6 +25,7 @@ public class Main {
         Produto produto2 = new Produto("Celular",15,1029.99);
         Produto produto3 = new Produto("Teclado",5,129.99);
         Produto produto4 = new Produto("Mouse",3,139.99);
+        //adiciona os produtos na lista
         listaProduto.add(produto1);
         listaProduto.add(produto2);
         listaProduto.add(produto3);
@@ -40,22 +42,24 @@ public class Main {
         compra(usuario1,produto2);
 
 
-        
+        //Exibe os produtos, com a quantidade atualizada.
         System.out.println("Produtos:");
         for(Produto produto : listaProduto){
             System.out.println(produto.toString());
         }
+        //Exibe as vendas que foram realizadas.
         System.out.println("Vendas:");
         for(Venda venda : listaVenda){
             System.out.println(venda.toString());
         }
+        //Exibe o produto de cada venda.
         System.out.println("ItemVenda:");
         for(ItemVenda itemvenda : listaItemVenda){
             System.out.println(itemvenda.toString());
         }
     }
     public static int id = 1;
-    
+    //Metodo para realizar a compra
     static void compra(Usuario usuario,Produto produto){
         //Cria um objeto venda que liga o id com o usuario.
         Venda venda = new Venda(id,usuario);
