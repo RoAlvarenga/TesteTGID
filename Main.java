@@ -21,10 +21,10 @@ public class Main {
         listaUsuario.add(usuario3);
         listaUsuario.add(usuario4);
         //Criando alguns produtos
-        Produto produto1 = new Produto("Fone",10,29.99);
-        Produto produto2 = new Produto("Celular",15,1029.99);
-        Produto produto3 = new Produto("Teclado",5,129.99);
-        Produto produto4 = new Produto("Mouse",3,139.99);
+        Produto produto1 = new Produto(1,"Fone",10,29.99);
+        Produto produto2 = new Produto(2,"Celular",15,1029.99);
+        Produto produto3 = new Produto(3,"Teclado",5,129.99);
+        Produto produto4 = new Produto(4,"Mouse",3,139.99);
         //adiciona os produtos na lista
         listaProduto.add(produto1);
         listaProduto.add(produto2);
