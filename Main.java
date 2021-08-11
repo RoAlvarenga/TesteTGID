@@ -52,7 +52,7 @@ public class Main {
         for(Venda venda : listaVenda){
             System.out.println(venda.toString());
         }
-        //Exibe o produto de cada venda.
+        //Exibe o produto de cada venda realizada.
         System.out.println("ItemVenda:");
         for(ItemVenda itemvenda : listaItemVenda){
             System.out.println(itemvenda.toString());
